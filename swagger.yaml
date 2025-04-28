@@ -30,7 +30,7 @@ tags:
     description: Funcionalidades de inventario de productos.
 
 paths:
-  /users:
+  /usuarios:
     get:
       tags:
         - users
@@ -43,7 +43,7 @@ paths:
         '500':
           description: Fallo interno del servidor.
 
-  /users/{id}:
+  /usuarios/{id}:
     get:
       tags:
         - users
@@ -65,7 +65,7 @@ paths:
         '500':
           description: Error de procesamiento en servidor.
 
-  /users/create:
+  /usuarios/create:
     post:
       tags:
         - users
@@ -85,7 +85,7 @@ paths:
         '400':
           description: Error en los datos de entrada.
 
-  /users/edit/{id}:
+  /usuarios/edit/{id}:
     post:
       tags:
         - users
@@ -114,7 +114,7 @@ paths:
         '500':
           description: Error en la operación de actualización.
 
-  /users/delete/{id}:
+  /usuarios/delete/{id}:
     delete:
       tags:
         - users
@@ -136,7 +136,7 @@ paths:
         '500':
           description: Error durante la eliminación.
 
-  /users/login:
+  /usuarios/login:
     post:
       tags:
         - users
